@@ -32,13 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="InstitutionManagement\Application\Internal\CommandServices\" />
     <Folder Include="InstitutionManagement\Application\Internal\OutboundServices\ACL\" />
-    <Folder Include="InstitutionManagement\Application\Internal\QueryServices\" />
-    <Folder Include="InstitutionManagement\Domain\Model\Queries\" />
-    <Folder Include="InstitutionManagement\Domain\Services\" />
-    <Folder Include="InstitutionManagement\Domain\Repositories\" />
-    <Folder Include="InstitutionManagement\Infrastructure\Persistence\EFC\Repositories\" />
     <Folder Include="InstitutionManagement\Interfaces\REST\Transform\" />
     <Folder Include="InstitutionManagement\Interfaces\REST\Resources\" />
   </ItemGroup>
