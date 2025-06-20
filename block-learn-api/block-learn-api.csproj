@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -29,6 +29,18 @@
 	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
 	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
 	  <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.0" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="InstitutionManagement\Application\Internal\CommandServices\" />
+    <Folder Include="InstitutionManagement\Application\Internal\OutboundServices\ACL\" />
+    <Folder Include="InstitutionManagement\Application\Internal\QueryServices\" />
+    <Folder Include="InstitutionManagement\Domain\Model\Queries\" />
+    <Folder Include="InstitutionManagement\Domain\Services\" />
+    <Folder Include="InstitutionManagement\Domain\Repositories\" />
+    <Folder Include="InstitutionManagement\Infrastructure\Persistence\EFC\Repositories\" />
+    <Folder Include="InstitutionManagement\Interfaces\REST\Transform\" />
+    <Folder Include="InstitutionManagement\Interfaces\REST\Resources\" />
   </ItemGroup>
 
 </Project>
